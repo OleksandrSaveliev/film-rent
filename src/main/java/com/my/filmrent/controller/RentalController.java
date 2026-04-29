@@ -1,8 +1,8 @@
 package com.my.filmrent.controller;
 
-import com.my.filmrent.dto.request.RentInventoryRequestDto;
-import com.my.filmrent.dto.request.ReturnRentalRequestDto;
-import com.my.filmrent.dto.response.RentalResponseDto;
+import com.my.filmrent.dto.RentInventoryRequestDto;
+import com.my.filmrent.dto.RentalResponseDto;
+import com.my.filmrent.dto.ReturnRentalRequestDto;
 import com.my.filmrent.service.RentalService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

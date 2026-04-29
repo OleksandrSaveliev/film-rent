@@ -1,12 +1,15 @@
 package com.my.filmrent.controller;
 
-import com.my.filmrent.dto.request.AddFilmRequestDto;
-import com.my.filmrent.dto.response.FilmResponseDto;
+import com.my.filmrent.dto.AddFilmRequestDto;
+import com.my.filmrent.dto.FilmResponseDto;
 import com.my.filmrent.service.FilmService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/api/films")
