@@ -28,7 +28,6 @@ public class Customer {
     private String email;
 
     @Column(name = "active", nullable = false)
-    @Builder.Default
     private boolean active = true;
 
     @Column(name = "create_date", nullable = false)

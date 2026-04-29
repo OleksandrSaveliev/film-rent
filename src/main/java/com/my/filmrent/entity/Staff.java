@@ -30,7 +30,6 @@ public class Staff {
     private String email;
 
     @Column(name = "active", nullable = false)
-    @Builder.Default
     private boolean active = true;
 
     @Column(name = "username", nullable = false, length = 16)
